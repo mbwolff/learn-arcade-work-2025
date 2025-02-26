@@ -34,13 +34,13 @@ arcade.draw_circle_filled(100, 350, 30, arcade.csscolor.DARK_GREEN)
 
 # Another tree, with a trunk and ellipse for top
 arcade.draw_rectangle_filled(200, 320, 20, 60, arcade.csscolor.SIENNA)
-arcade.draw_ellipse_filled(200, 370, 60, 80, arcade.csscolor.DARK_GREEN)
+arcade.draw_ellipse_filled(200, 370, 60, 80, tilt_angle=-45, color=arcade.csscolor.DARK_GREEN)
 
 # Another tree, with a trunk and arc for top
 # Arc is centered at (300, 340) with a width of 60 and height of 100.
 # The starting angle is 0, and ending angle is 180.
 arcade.draw_rectangle_filled(300, 320, 20, 60, arcade.csscolor.SIENNA)
-arcade.draw_arc_filled(300, 340, 60, 100, arcade.csscolor.DARK_GREEN, 0, 180)
+arcade.draw_arc_filled(300, 340, 60, 100, arcade.csscolor.DARK_GREEN, 0, 180, 60)
 
 # Another tree, with a trunk and triangle for top
 # Triangle is made of these three points:
