@@ -21,7 +21,10 @@ class Boat:
 
 class Submarine(Boat):
     def submerge(self):
-        print("Submerge!")
+        if not self.is_docked:
+            print("Submerge!")
+        else:
+            print("You can't do that, otherwise you will sink.")
 
 
 b = Submarine()
@@ -30,4 +33,5 @@ b.undock()
 b.undock()
 b.submerge()
 b.dock()
+b.submerge()
 b.dock()

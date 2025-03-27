@@ -1,3 +1,5 @@
+import arcade
+
 class Ball:
     def __init__(self):
         # --- Class Attributes ---

@@ -5,6 +5,8 @@ class Monster1:
 
     def decrease_health(self, amount):
         self.health -= amount
+        if self.health < 0:
+            print(self.name + " has died because ", end="")
 
 
 godzilla = Monster1()

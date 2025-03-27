@@ -1,0 +1,20 @@
+"/Users/mark/Teaching/Courses/CISC 118 SP2025/learn-arcade-work-2025/.venv/bin/python" /Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pydev/pydevconsole.py --mode=client --host=127.0.0.1 --port=52802
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['/Users/mark/Teaching/Courses/CISC 118 SP2025/learn-arcade-work-2025'])
+PyDev console: starting.
+Python 3.9.6 (default, Nov 11 2024, 03:15:38)
+[Clang 16.0.0 (clang-1600.0.26.6)] on darwin
+
+x = [ 10, 20, 3, True, "Hello", 3.14 ]
+
+x[2]
+3
+
+x[0]
+10
+
+x[-1]
+3.14
+
+len(x)
+6
